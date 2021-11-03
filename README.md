@@ -1,6 +1,6 @@
 ![Banner](./imagenes/banner.png)
 
-# M1S5: Fundamentos de JavaScript
+# M5S7,8Y9: Fundamentos de JavaScript
 
 >#### Hola, te encuentras en la 5 semana, ¿cómo vas  con tu primer proyecto?, ¿ya lo entregaste? recuerda que debes entregarlos todos para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
 >#### Sigue adelante... :smile:
