@@ -2,7 +2,7 @@
 
 # M5S7,8Y9: Fundamentos de JavaScript
 
->#### Hola, te encuentras en la 5 semana, ¿has podido realizar todas las actividades solicitadas? recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
+>#### Hola, ya te encuentras en el módulo 5, ¿has podido realizar todas las actividades solicitadas? recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
 >#### Sigue adelante... :smile:
 
 # ÍNDICE
