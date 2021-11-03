@@ -2,18 +2,18 @@
 
 # M5S7,8Y9: Fundamentos de JavaScript
 
->#### Hola, te encuentras en la 5 semana, ¿cómo vas  con tu primer proyecto?, ¿ya lo entregaste? recuerda que debes entregarlos todos para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
+>#### Hola, te encuentras en la 5 semana, ¿has podido realizar todas las actividades solicitadas? recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
 >#### Sigue adelante... :smile:
 
 # ÍNDICE
 
-- [JavaScript](https://github.com/U-Camp/BOOT-M1-SEM5#javascript)
-- [Sintaxis y Sentencias](https://github.com/U-Camp/BOOT-M1-SEM5#sintaxis-y-sentencias)
-  - [Variables y Constantes](https://github.com/U-Camp/BOOT-M1-SEM5#variables-y-constantes)
-  - [Operadores Aritméticos, de Comparación y Lógicos](https://github.com/U-Camp/BOOT-M1-SEM5#operadores-aritm%C3%A9ticos-de-comparaci%C3%B3n-y-l%C3%B3gicos)
-  - [Tipos de datos](https://github.com/U-Camp/BOOT-M1-SEM5#tipos-de-datos)
-  - [Estructuras de Control](https://github.com/U-Camp/BOOT-M1-SEM5#estructuras-de-control)
-- [Funciones](https://github.com/U-Camp/BOOT-M1-SEM5#funciones)
+- [JavaScript](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#javascript)
+- [Sintaxis y Sentencias](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#sintaxis-y-sentencias)
+  - [Variables y Constantes](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#variables-y-constantes)
+  - [Operadores Aritméticos, de Comparación y Lógicos](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#operadores-aritm%C3%A9ticos-de-comparaci%C3%B3n-y-l%C3%B3gicos)
+  - [Tipos de datos](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#tipos-de-datos)
+  - [Estructuras de Control](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#estructuras-de-control)
+- [Funciones](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#funciones)
 
 # JavaScript
 
@@ -80,7 +80,7 @@ Ejemplo:
 ``` 
 _Ejemplo de HTML con código Javascript_
 
->#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript, [presiona aquí](https://github.com/U-Camp/BOOT-M1-SEM5/blob/main/infografias/Semana_1_Info1_Javascript.pdf)
+>#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript, [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP1.pdf)
 >#### Seguimos...
 
 Encuestas realizadas por StackOverflow en el 2019 ("Stack Overflow Developer Survey 2019 ", s.f.) indican que, entre los programadores de todo el mundo, **JavaScript** es el lenguaje más popular y usado, con un porcentaje del 67.8%. Al ser un lenguaje con alta aceptación, éste puede ser utilizado por profesionales y por aquellos que apenas se inician en el mundo de la programación, la tendencia de uso indica que éste lenguaje goza de una alta aceptación en la comunidad, por lo que la curva de aprendizaje es mínima, así como el soporte y los recursos de apoyo que existen son extensos, razones de sobra para elegirlo como el lenguaje de programación tanto para el frontend (funcionalidad visible para el usuario final) como para el backend (funcionalidad de lógica del negocio)  y con el cual se pretende impartir el presente bootcamp.
@@ -235,7 +235,7 @@ Así mismo, una función puede regresar un valor o un resultado del proceso que 
 _Ejemplo de Funciones_
 
 
->#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript (SINTAXIS Y SENTENCIAS), [presiona aquí](https://github.com/U-Camp/BOOT-M1-SEM5/blob/main/infografias/M1_S5_Infografia%2001.pdf)
+>#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript (SINTAXIS Y SENTENCIAS), [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP2.pdf)
 
 >#### Sería todo el contenido de esta semana, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC o en codepen e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con tus coaches desde Microsoft Teams.
 >#### Nos vemos en la siguiente semana.
