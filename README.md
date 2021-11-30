@@ -17,14 +17,14 @@
 
 # JavaScript
 
-Es un lenguaje script multi-paradigma, basado en prototipos, dinámico, soporta estilos de programación funcional, orientada a objetos e imperativa. 
+JavaScript es un lenguaje script multi-paradigma, basado en prototipos, dinámico, soporta estilos de programación funcional, orientada a objetos e imperativa. 
 Nacido como una alternativa a los lenguajes de programación web estáticos (HTML) y del lado del servidor (PHP, Ruby, Python) de los años 90, JavaScript, es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos; normalmente confundido con Java pero con características completamente alejadas de éste, es uno de los lenguajes favoritos y más usados en el mundo del desarrollo de software, su uso principal es como lenguaje de script para páginas web, ya que anteriormente se ejecutaba exclusivamente del lado del cliente (exploradores web), pero actualmente tiene implementaciones en muchos entornos sin navegador web, tal como NodeJS. 
 
 Antes de que existiera NodeJS, con JavaScript sólo se podían construir aplicaciones web, las cuales se ejecutan en un navegador web haciendo uso de un JavaScript Engine que interpreta el código en tiempo de compilación, convirtiéndolo en un bytecode entendible para las máquinas.
 
-Además de JavaScript Engine, los navegadores poseen un Runtime Environment el cual otorga acceso a APIs nativas de los navegadores mediante las cuales un programador puede construir una aplicación web, ya que éste entorno de ejecución provee objetos tales como el DOM, WINDOW, DOCUMENT, LOCATION o el objeto XMLHttpRequest (AJAX ) con el cual se pueden realizar llamadas al servidor asíncronas. Gracias a la conjunción de esos dos elementos (JavaScript Engine y Runtime Environment) es que se puede ejecutar JavaScript.
+Además de JavaScript Engine, los navegadores poseen un Runtime Environment el cual otorga acceso a APIs nativas de los navegadores mediante las cuales un programador puede construir una aplicación web, ya que este entorno de ejecución provee objetos tales como el DOM, WINDOW, DOCUMENT, LOCATION o el objeto XMLHttpRequest (AJAX) con el cual se pueden realizar llamadas al servidor asíncronas. Gracias a la conjunción de esos dos elementos (JavaScript Engine y Runtime Environment) es que se puede ejecutar JavaScript.
 
-El código de JavaScript se ejecuta asíncronamente por defecto, en un único proceso (single thread), lo que permite que las operaciones devuelvan el control del programa antes de que terminen mientras se siguen operando en segundo plano, esto agiliza el proceso de ejecución, pero complica el razonamiento sobre el programa.  Sin embargo, la arquitectura de JavaScript permite éste tipo de ejecución en favor de la rapidez, no importando el entorno de ejecución, el diseño de esa arquitectura se describe a continuación:
+El código de JavaScript se ejecuta asíncronamente por defecto, en un único proceso (single thread), lo que permite que las operaciones devuelvan el control del programa antes de que terminen mientras se siguen operando en segundo plano, esto agiliza el proceso de ejecución, pero complica el razonamiento sobre el programa. Sin embargo, la arquitectura de JavaScript permite este tipo de ejecución en favor de la rapidez, no importando el entorno de ejecución, el diseño de esa arquitectura se describe a continuación:
 
 **o Call Stack:** Es una estructura de datos, una pila de llamadas (LIFO) donde se almacenan el seguimiento de un script que ejecuta secuencia de instrucciones.
 
@@ -80,10 +80,10 @@ Ejemplo:
 ``` 
 _Ejemplo de HTML con código Javascript_
 
->#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript, [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP1.pdf)
+>#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript, [presiona aquí](https://github.com/U-Camp/BOOT-M1-SEM5/blob/main/infografias/Semana_1_Info1_Javascript.pdf)
 >#### Seguimos...
 
-Encuestas realizadas por StackOverflow en el 2019 ("Stack Overflow Developer Survey 2019 ", s.f.) indican que, entre los programadores de todo el mundo, **JavaScript** es el lenguaje más popular y usado, con un porcentaje del 67.8%. Al ser un lenguaje con alta aceptación, éste puede ser utilizado por profesionales y por aquellos que apenas se inician en el mundo de la programación, la tendencia de uso indica que éste lenguaje goza de una alta aceptación en la comunidad, por lo que la curva de aprendizaje es mínima, así como el soporte y los recursos de apoyo que existen son extensos, razones de sobra para elegirlo como el lenguaje de programación tanto para el frontend (funcionalidad visible para el usuario final) como para el backend (funcionalidad de lógica del negocio)  y con el cual se pretende impartir el presente bootcamp.
+Encuestas realizadas por Stack Overflow en el 2019 ("Stack Overflow Developer Survey 2019 ", s.f.) indican que, entre los programadores de todo el mundo, **JavaScript** es el lenguaje más popular y usado, con un porcentaje del 67.8 %. Al ser un lenguaje con alta aceptación, este puede ser utilizado por profesionales y por aquellos que apenas se inician en el mundo de la programación, la tendencia de uso indica que este lenguaje goza de una alta aceptación en la comunidad, por lo que la curva de aprendizaje es mínima, así como el soporte y los recursos de apoyo que existen son extensos, razones de sobra para elegirlo como el lenguaje de programación tanto para el frontend (funcionalidad visible para el usuario final) como para el backend (funcionalidad de lógica del negocio)  y con el cual se pretende impartir el presente bootcamp.
 
 El lenguaje JavaScript tiene distintas palabras reservadas con las que se puede codificar y hacer aplicaciones web enriquecidas, permite el uso de variables, constantes, operaciones aritméticas y lógicas, así como comparaciones y estructuras de control de flujo, las cuales se verán a continuación.
 
@@ -91,7 +91,7 @@ El lenguaje JavaScript tiene distintas palabras reservadas con las que se puede 
 
 ## Variables y Constantes
 
-Las variables son contenedores de datos o de un valor en específico que sirven para realizar operaciones o evaluar expresiones, como una suma o una parte de una oración. El valor de una variable puede cambiar, anteriormente se definían con la palabra reservada `var` pero debido a cómo fue diseñada en el lenguaje, ya que permite la re-declaración de la variable o el uso de variables fuera de ámbito, lo que ocasiona errores de ejecución y falta de fiabilidad en el código, por lo que se adoptó el uso de la palabra reservada `let` para especificar variables y la palabra reservada `const` para especificar constantes, las cuales no cambian de valor, seguidas del nombre de la variable o constante (que pueden contener letras, dígitos y guiones bajos, preferiblemente usando camelCase ) hasta éste punto se le llama declaración; después de la declaración de la variable o constante, se puede asignar un valor, para lo cual se usa el signo igual (=) y el valor a asignar (ejemplo `let variable = 123;` o `const constante = 'cadena constante';`). Dentro de esto existen dos conceptos que hay que tener en cuenta:
+Las variables son contenedores de datos o de un valor en específico que sirven para realizar operaciones o evaluar expresiones, como una suma o una parte de una oración. El valor de una variable puede cambiar, anteriormente se definían con la palabra reservada `var` pero debido a como fue diseñada en el lenguaje, ya que permite la re-declaración de la variable o el uso de variables fuera de ámbito, lo que ocasionaba errores de ejecución y falta de fiabilidad en el código, se adoptó el uso de la palabra reservada `let` para especificar variables y la palabra reservada `const` para especificar constantes, las cuales no cambian de valor, seguidas del nombre de la variable o constante (que pueden contener letras, dígitos y guiones bajos, preferiblemente usando camelCase) hasta este punto se le llama declaración; después de la declaración de la variable o constante, se puede asignar un valor, para lo cual se usa el signo igual (=) y el valor a asignar (ejemplo `let variable = 123;` o `const constante = 'cadena constante';`). Dentro de esto existen dos conceptos que hay que tener en cuenta:
 
 **o Scope:** El scope es el ámbito de una variable o constante, es hasta donde el lenguaje puede leer que ésta se encuentra declarada, es decir que no existe más allá del bloque de código en el que se le declara, por lo que, si se accede fuera de ese bloque de código, el lenguaje lanzará un error.
 
@@ -100,7 +100,7 @@ Las variables son contenedores de datos o de un valor en específico que sirven 
 ## Operadores Aritméticos, de Comparación y Lógicos.
 
 **JavaScript** admite varios tipos de operadores con los cuales se evalúan expresiones, como lo son los aritméticos, los de comparación o los lógicos.
-Los operadores aritméticos realizan operaciones algebraicas sobre las variables o constantes, con lo que al final se devuelve un resultado (ejemplo `const suma = a + b;`), los más usados son la adición (+), la resta (-), la multiplicación (*), la división (/), residuo (%), incremento (++) y decremento (--).
+Los operadores aritméticos realizan operaciones algebraicas sobre las variables o constantes, con lo que al final se devuelve un resultado (ejemplo `const suma = a + b;`), los más usados son la adición (+), la resta (-), la multiplicación (`*`), la división (`/`), residuo (`%`), incremento (`++`) y decremento (`--`).
 
 Los operadores de comparación evalúan 1 o más expresiones y devuelven un resultado booleano indicando el resultado de esa comparación (ejemplo `const esMayor = a > b;` si a es mayor a b, la constante `esMayor` será igual a `true`, si b es mayor que a, entonces `esMayor` será igual a `false`); los más usados son la igualdad (``==`` y `===`, el triple igual es más estricto en cuanto a que compara el tipo de dato), desigualdad (`!=` y `!==`) mayor que (`>`), menor que (`<`), mayor o igual que (`>=`), menor o igual que (`<=`).
 
@@ -110,7 +110,7 @@ Existen otro tipo de operadores que se usan naturalmente como parte del lenguaje
 
 Todo tipo de expresión ya sea aritmética, comparativa o lógica, usa la precedencia de operadores  para ser evaluada.
 
-## Tipos de datos
+## Tipos de Datos
 
 Un valor en JavaScript siempre está relacionado a algún tipo de dato, por ejemplo, una cadena de texto o un número. 
 
@@ -184,14 +184,14 @@ _Ejemplo de estructuras de control condicionales_
 ```
 _Ejemplo de estructuras de control cíclicas_
 
->#### Hola, ¿cómo te sientes?, ¿te parece si tomamos un respiro y nos dedicamos 5 minutos a respirar, escuchando una canción relajante?, puedes cerrar los ojos y escuchar la siguiente música [presiona aquí](https://www.youtube.com/watch?v=Pd3TcScm6UU)
->#### ¿Cómo te sientes?, espero que mucho mejor y ahora si continuemos...
+>#### Hola, ¿cómo te sientes?, ¿te parece si tomamos un descanso y nos dedicamos 5 minutos a respirar, escuchando una canción relajante?, puedes cerrar los ojos y escuchar la siguiente música [presiona aquí](https://www.youtube.com/watch?v=Pd3TcScm6UU)
+>#### ¿Cómo te sientes?, espero que mucho mejor y ahora sí continuemos...
 
 # Funciones
 
 Las funciones en JavaScript, son bloques de código que realizan una acción específica, es decir, que se encargan de realizar cierto conjunto de sentencias relacionadas entre sí. Esto sirve para poder dividir el código en pequeños pedazos que hagan cosas específicas, lo cual permite reusar ese código en distintas partes del proceso, lo que evita que reescribamos. Por lo que, si se detecta que se están repitiendo líneas de código en varios lados, es mejor invertir tiempo reescribiendo esas líneas en forma de función e invocando la función en cada parte en la que se le necesite (refactorizar).
 
-Una función se define con la palabra reservada `function` seguida del nombre de la función (que pueden contener letras, dígitos y guiones bajos, preferiblemente usando `camelCase` ), seguido por paréntesis.
+Una función se define con la palabra reservada `function` seguida del nombre de la función (que pueden contener letras, dígitos y guiones bajos, preferiblemente usando `camelCase`), seguido por paréntesis.
 
 Los paréntesis se usan para recibir parámetros dentro de la función, estos se separan por comas y se usan como variables / constantes dentro de la función.
 
@@ -233,6 +233,7 @@ Así mismo, una función puede regresar un valor o un resultado del proceso que 
      console.log('Resta: ', resta);
 ```
 _Ejemplo de Funciones_
+
 
 
 >#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript (SINTAXIS Y SENTENCIAS), [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP2.pdf)
