@@ -2,7 +2,7 @@
 
 # M5S7,8Y9: Fundamentos de JavaScript
 
->#### Hola, ya te encuentras en el módulo 5, ¿has podido realizar todas las actividades solicitadas? recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
+>#### Hola, ya te encuentras en el módulo 5, ¿has podido realizar todas las actividades solicitadas? Recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
 >#### Sigue adelante... :smile:
 
 # ÍNDICE
@@ -238,5 +238,5 @@ _Ejemplo de Funciones_
 
 >#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript (SINTAXIS Y SENTENCIAS), [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP2.pdf)
 
->#### Sería todo el contenido de esta semana, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC o en codepen e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con tus coaches desde Microsoft Teams.
+>#### Sería todo el contenido de esta semana, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC o en CodePen e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con tus coaches desde Microsoft Teams.
 >#### Nos vemos en la siguiente semana.
