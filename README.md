@@ -7,15 +7,19 @@
 
 # ÍNDICE
 
-- [JavaScript](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#javascript)
+- [Historia de JavaScript](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#historia-de-javascript)
 - [Sintaxis y Sentencias](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#sintaxis-y-sentencias)
   - [Variables y Constantes](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#variables-y-constantes)
   - [Operadores Aritméticos, de Comparación y Lógicos](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#operadores-aritm%C3%A9ticos-de-comparaci%C3%B3n-y-l%C3%B3gicos)
   - [Tipos de datos](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#tipos-de-datos)
   - [Estructuras de Control](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#estructuras-de-control)
 - [Funciones](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#funciones)
+- [Objetos](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#objetos)
+- [Clases](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF#clases)
 
-# JavaScript
+
+
+# Historia de JavaScript
 
 JavaScript es un lenguaje script multi-paradigma, basado en prototipos, dinámico, soporta estilos de programación funcional, orientada a objetos e imperativa. 
 Nacido como una alternativa a los lenguajes de programación web estáticos (HTML) y del lado del servidor (PHP, Ruby, Python) de los años 90, JavaScript, es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos; normalmente confundido con Java pero con características completamente alejadas de éste, es uno de los lenguajes favoritos y más usados en el mundo del desarrollo de software, su uso principal es como lenguaje de script para páginas web, ya que anteriormente se ejecutaba exclusivamente del lado del cliente (exploradores web), pero actualmente tiene implementaciones en muchos entornos sin navegador web, tal como NodeJS. 
@@ -184,8 +188,8 @@ _Ejemplo de estructuras de control condicionales_
 ```
 _Ejemplo de estructuras de control cíclicas_
 
->#### Hola, ¿cómo te sientes?, ¿te parece si tomamos un descanso y nos dedicamos 5 minutos a respirar, escuchando una canción relajante?, puedes cerrar los ojos y escuchar la siguiente música [presiona aquí](https://www.youtube.com/watch?v=Pd3TcScm6UU)
->#### ¿Cómo te sientes?, espero que mucho mejor y ahora sí continuemos...
+>#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript (SINTAXIS Y SENTENCIAS), [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP2.pdf)
+
 
 # Funciones
 
@@ -236,7 +240,196 @@ _Ejemplo de Funciones_
 
 
 
->#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript (SINTAXIS Y SENTENCIAS), [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP2.pdf)
+>#### Hola, ¿cómo te sientes?, ¿te parece si tomamos un descanso y nos dedicamos 5 minutos a respirar, escuchando una canción relajante?, puedes cerrar los ojos y escuchar la siguiente música [presiona aquí](https://www.youtube.com/watch?v=Pd3TcScm6UU)
+>#### ¿Cómo te sientes?, espero que mucho mejor y ahora sí continuemos...
 
->#### Sería todo el contenido de esta semana, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC o en CodePen e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con tus coaches desde Microsoft Teams.
->#### Nos vemos en la siguiente semana.
+
+
+# Objetos
+
+Los objetos son un tipo de dato no primitivo.
+
+Pueden contener múltiples datos, bajo la estructura de propiedad - valor (`key-value`). 
+
+Los valores establecidos en las propiedades pueden ser otros tipos de datos o funciones (en este caso, se conocerán como métodos).
+
+Bajo este concepto, hay dos formas de crear un objeto:
+
+1. **Objetos literales**, también conocidos como `Object literals`. En este sentido, necesitamos asignar a través de llaves `{}` el objeto a una variable. 
+
+Dentro, establecemos una propiedad y establecemos el valor de esa propiedad. La sintaxis sería de esta forma:
+
+```javascript
+let nombreDelObjeto = {
+  propiedad1: "valor1",
+  propiedad2: "valor2",
+  propiedad3: "valor3"
+}
+```
+
+Veamos un ejemplo, con dos propiedades y un método:
+
+```javascript
+let country = {
+  name: "México",
+  language: "Español",
+  getPopulation: function(){
+    return `En ${this.name}, se habita 127.6 millones`
+  }
+}
+
+// console.log(country)
+// console.log(country.name)
+// console.log(country.language)
+// console.log(country.getPopulation())
+
+```
+Observaciones ante este objeto:
+
+- Contamos con las propiedades `name` y `language`.
+- Vemos que existe un método llamado `getPopulation`. Este permite involucrar una función como valor, el cual puede llamarse desde el objeto a través de notación de punto (`dot notation`).
+- Ejecuta los diferentes `console.log()`para observar su comportamiento.
+
+
+2. **Constructores**, conocidos como `Object constructors`. Usaremos la palabra `new`. Puedes agregar propiedades y métodos a través de la técnica de notación de punto (`dot notation`).
+
+
+```javascript
+
+let nombreObjeto = new Object()
+
+nombreObjeto.nombre = "Joe"
+nombreObjeto.apellido = "Doe"
+nombreObjeto.edad = 35
+
+nombreObjeto.saludar = function(){
+  return `Hola. Un gusto.`
+}
+```
+
+Toma en cuenta que puedes modificar una propiedad utilizando corchetes [ ] (_brackets_). 
+
+Por ejemplo:
+
+```javascript
+nombreObjeto["apellido"] = "Smith"
+// console.log(nombreObjeto.apellido)
+```
+
+Ahora bien, profundicemos en los accesos de propiedades.
+
+Como hemos visto anteriormente, puedes acceder a través de `dot notation` o `bracket notation`.
+
+```javascript
+let user = {
+  nickname: "johndoe",
+  email: "johndoe@gmail.com"
+}
+
+console.log(user.nickname) // DOT NOTATION
+console.log(user["email"]) // BRACKET NOTATION
+```
+
+Recuerda colocar en `bracket notation` las comillas para que puedas acceder sin problema a la propiedad.
+
+
+# Clases
+
+**JavaScript**, es un lenguaje de programación orientado a prototipos, por lo que se puede decir que todo en este lenguaje es un prototipo, incluyendo las variables/constantes, funciones y cualquier otra estructura que permita manejar datos.
+
+Antes de ECMAScript 2015, no existían las clases como tal en JavaScript, pero a partir de ese estándar, se introdujeron mejoras sintácticas sobre la herencia basada en prototipos de Javascript, por lo que se agregó la palabra reservada `class` para definir una clase, con lo que se provee una sintaxis mucho más clara y simple para crear objetos y lidiar con la herencia.
+
+Internamente para JavaScript, las clases son "funciones especiales", y así como se pueden definir funciones nombradas y funciones anónimas, de la misma manera las clases se pueden definir como **declaraciones de clases** (nombradas y la forma más usada para representarlas) o como **expresiones de clases** (anónimas asignadas a una variable, no es muy usada esta sintaxis).
+
+Para definir una clase se usa la palabra reservada `class` seguida del nombre que se le quiera dar (si ésta es nombrada).
+
+El contenido de una clase es la parte que se encuentra entre las llaves {}. Este es el lugar donde se definen las propiedades de la clase, así como el constructor y los métodos de la clase.
+
+El constructor es un método especial para crear e inicializar un objeto creado con una clase. Sólo puede haber un solo método con el nombre `constructor` en una clase. Si ésta contiene más de un método constructor, se lanzará un error. Así mismo, un constructor puede usar la palabra reservada `super`, con la cual, si la clase actual hereda de una clase padre, se manda a llamar el constructor del padre.
+
+Así mismo, la palabra reservada `extends` es usada en declaraciones de clase o expresiones de clase para crear una clase hija que extiende o hereda de una clase padre.
+
+```javascript
+// Declaración de Clase - Clase Nombrada*
+
+class Rectangulo {
+  constructor(alto, ancho) {
+  // Con la palabra `this` se hace referencia al ámbito de la clase
+  // Las propiedades `alto` y `ancho` representan el estado de la clase
+    this.alto = alto;
+    this.ancho = ancho;
+  }
+
+  // Getter (encapsulamiento)
+  get area() {
+    return this.calcularArea();
+  }
+
+// Método, comportamiento de la clase
+  calcularArea () {
+    return this.alto * this.ancho;
+  }
+};
+
+// Expresión de clase - Clase Anónima
+
+const RectanguloAnonimo = class {
+    constructor(alto, ancho) {
+    this.alto = alto;
+    this.ancho = ancho;
+  }
+};
+
+// Instanciamos la clase...
+const cuadrado = new Rectangulo(10, 10);
+
+// Imprime: `Area: 100`
+console.log(`Area: ${cuadrado.area}`);
+
+// Clase padre
+
+class Animal {
+  constructor(nombre) {
+  this.nombre = nombre;
+}
+
+  hablar() {
+    console.log(this.nombre + ' hace un ruido.');
+  }
+}
+
+const animal = new Animal('Jirafa');
+
+// Imprime: `Animal dice: Jirafa hace un ruido`
+console.log(`Animal dice: ${animal.hablar()}`);
+
+// Clase hija, hereda de la clase `Animal`
+
+class Perro extends Animal {
+    constructor(nombre) {
+    super(nombre);
+  }
+
+// Sobrecarga del método `hablar`, polimorfismo
+  hablar() {
+    console.log(this.nombre + ' ladra.');
+  }
+}
+
+const perro = new Perro('Firulais');
+
+// Imprime: `Perro dice: Firulais ladra`
+console.log(`Perro dice: ${perro.hablar()}`);
+```
+_Ejemplo de clases en JavaScript_
+
+
+
+>#### En caso de que desees consultar y descargar una infografía sobre clases, puedes [presionar aquí.](https://github.com/U-Camp/BOOT-M1-SEM7/blob/main/infografias/M1_S7_Infografia%2001.pdf)
+>#### También te comento que tu salud es muy importante, por lo que te recomiendo que hagas pausas activas, vayas al baño y comas algo, el cuerpo necesita mucha energía para poder estudiar y aprender. :spaghetti:
+>#### Si lograste hacer tus pausas activas, seguimos...
+
+
+>#### Sería todo el contenido de este módulo, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con los demás U Campers desde Microsoft Teams.
+>
+>#### Nos vemos en el siguiente módulo.
