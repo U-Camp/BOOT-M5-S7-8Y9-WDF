@@ -240,7 +240,7 @@ _Ejemplo de Funciones_
 
 
 
->#### Hola, ¿cómo te sientes?, ¿te parece si tomamos un descanso y nos dedicamos 5 minutos a respirar, escuchando una canción relajante?, puedes cerrar los ojos y escuchar la siguiente música [presiona aquí](https://www.youtube.com/watch?v=Pd3TcScm6UU)
+>#### Hola, ¿cómo te sientes?, ¿te parece si tomamos un descanso y nos dedicamos 5 minutos a respirar, escuchando una canción relajante?, puedes cerrar los ojos y escuchar la siguiente música [presiona aquí.](https://www.youtube.com/watch?v=Pd3TcScm6UU)
 >#### ¿Cómo te sientes?, espero que mucho mejor y ahora sí continuemos...
 
 
@@ -425,7 +425,7 @@ _Ejemplo de clases en JavaScript_
 
 
 
->#### En caso de que desees consultar y descargar una infografía sobre clases, puedes [presionar aquí.](https://github.com/U-Camp/BOOT-M1-SEM7/blob/main/infografias/M1_S7_Infografia%2001.pdf)
+>#### En caso de que desees consultar y descargar una infografía sobre clases, puedes [presionar aquí.](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M1_S7_Infografia%2001.pdf)
 >#### También te comento que tu salud es muy importante, por lo que te recomiendo que hagas pausas activas, vayas al baño y comas algo, el cuerpo necesita mucha energía para poder estudiar y aprender. :spaghetti:
 >#### Si lograste hacer tus pausas activas, seguimos...
 
