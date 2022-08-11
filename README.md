@@ -84,7 +84,7 @@ Ejemplo:
 ``` 
 _Ejemplo de HTML con código Javascript_
 
->#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript, [presiona aquí](https://github.com/U-Camp/BOOT-M1-SEM5/blob/main/infografias/Semana_1_Info1_Javascript.pdf)
+>#### Si deseas puedes consultar y descargar esta infografía que muestra de forma más ilustrada lo que te acabo de explicar sobre JavaScript, [presiona aquí](https://github.com/U-Camp/BOOT-M5-S7-8Y9-WDF/blob/main/infografias/M5_S789_JAVASCRIPTP1.pdf)
 >#### Seguimos...
 
 Encuestas realizadas por Stack Overflow en el 2019 ("Stack Overflow Developer Survey 2019 ", s.f.) indican que, entre los programadores de todo el mundo, **JavaScript** es el lenguaje más popular y usado, con un porcentaje del 67.8 %. Al ser un lenguaje con alta aceptación, este puede ser utilizado por profesionales y por aquellos que apenas se inician en el mundo de la programación, la tendencia de uso indica que este lenguaje goza de una alta aceptación en la comunidad, por lo que la curva de aprendizaje es mínima, así como el soporte y los recursos de apoyo que existen son extensos, razones de sobra para elegirlo como el lenguaje de programación tanto para el frontend (funcionalidad visible para el usuario final) como para el backend (funcionalidad de lógica del negocio)  y con el cual se pretende impartir el presente bootcamp.
