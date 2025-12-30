@@ -2,7 +2,7 @@
 
 # WDF S7, S8 Y S9: Fundamentos de JavaScript
 
->#### Hola, ya te encuentras en el módulo 5, ¿has podido realizar todas las actividades solicitadas? Recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
+>#### Hola, ¿has podido realizar todas las actividades solicitadas? Recuerda que debes entregar todo lo que se te pida para poder aprobar el Bootcamp, hasta ahora aprendiste y aplicaste HTML y CSS. A continuación, daremos inicio a un nuevo contenido y es el que corresponde a JavaScript.
 >#### Sigue adelante... :smile:
 
 # ÍNDICE
