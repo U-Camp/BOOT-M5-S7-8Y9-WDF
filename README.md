@@ -430,6 +430,6 @@ _Ejemplo de clases en JavaScript_
 >#### Si lograste hacer tus pausas activas, seguimos...
 
 
->#### Sería todo el contenido de este módulo, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con los demás U Campers desde Microsoft Teams.
+>#### Sería todo el contenido de este módulo, recuerda que si quieres realizar prácticas puedes copiar y pegar los códigos anteriores en VSC e ir ejecutando cada ejemplo para que los puedas visualizar y si tienes alguna duda puedes consultar con los demás U Campers.
 >
 >#### Nos vemos en el siguiente módulo.
